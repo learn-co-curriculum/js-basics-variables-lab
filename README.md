@@ -66,11 +66,11 @@ describe('index.js', function () {
 });
 ```
 
-`describe` is a function provided by our test library, Mocha and it's used to
+`describe` is a function provided by our test library, Mocha, and it's used to
 hold our tests. After the word `describe` is information about our tests. Tests
 are used as a way to document the behavior of a function to developers. For
 example, the next word `describe` is followed by the word `companyName` name.
-Here the test is telling us that the tests that come after words will be about
+Here the test is telling us that the tests that come afterwords will be about
 `companyName`. Then comes the word `it`, where you see the following:
 
 ```js
@@ -79,7 +79,7 @@ it('is set as Scuber', function () {
 });
 ```
 
-So this is telling us that the `companyName` should be set to `Scuber`. Finally,
+This is telling us that the `companyName` should be set to `Scuber`. Finally,
 filling in the missing part of the `it` code, we see:
 
 ```js
@@ -88,20 +88,20 @@ it('is set as Scuber', function () {
 });
 ```
 
-Here, we can see that it expects `companyName` to equal `Scuber`. That `expect`
-and `to.equal` are essentially doing the same thing as `companyName ==
+This example shows that the test expects `companyName` to equal `Scuber`. That
+`expect` and `to.equal` are essentially doing the same thing as `companyName ==
 'Scuber'`. In other words, `expect(companyName).to.equal('Scuber')` is running
 code that will have this first test pass if `companyName` equals `Scuber` and
 fail if it does not.
 
 Don't worry too much yet if it's hard to understand what is happening inside of
 the `test/indexTest.js` file. But it's a good idea to open up the file, and
-gather the information that you can. We will also provide Instructions in the
+gather the information that you can. We will also provide instructions in the
 `README.md` file that will allow you to complete the lab.
 
 ## Running the Tests
 
-To run the tests, simply type `learn` in the terminal part of the Learn IDE.
+To run the tests, type `learn` in the terminal part of the Learn IDE.
 (The terminal is the part below where you've been coding.)
 
 Running the `learn` command will open up a new tab on your browser, showing the
@@ -115,13 +115,14 @@ following:
 let companyName = 'Scuber';
 ```
 
-Great, our first test is now passing. Except the second test is also about
-`companyName` and it is not. It's not passing because, it expects a change to
+Great, our first test is now passing. However, the second test that is also about
+`companyName` is not yet passing. It's not passing because, it expects a change to
 `companyName` to throw a `TypeError`. It sounds like it wants `companyName` to
 be declared using a different keyword than the `let` keyword - it needs a
 keyword that is used for variables that can't be changed...
 
-Ok, so we'll let you work through the problems below. Keep in mind the general workflow for a lab:
+Continue to work through the problems below. Keep in mind the general workflow
+for a lab:
 
 1. Run `learn`.
 2. Read the errors; vocalize what they're asking you to do.
