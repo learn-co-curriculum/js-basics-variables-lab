@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-- Practice using the `const` and `let` variables in JavaScript
+- Practice using const and let to declare variables in JavaScript
 
 ## Instructions
 
