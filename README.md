@@ -119,11 +119,10 @@ for variables that can't be changed...
 Continue to work through the problems below. Keep in mind the general workflow
 for a lab:
 
-1. Run `learn`.
+1. Run `learn test`.
 2. Read the errors; vocalize what they're asking you to do.
 3. Write code; repeat steps 1 and 2 often until a test passes.
 4. Repeat as needed for further tests.
-5. Unless you're working in Canvas, run `learn submit` when finished!
 
 ## Working Through the Problems
 
